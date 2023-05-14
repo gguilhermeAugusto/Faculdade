@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #080708;
+    width: 100%;
+    
+}
+header img{
+    height: 100px;
+}
+.menu{
+    margin-right: 200px;
+}
+.menu a{
+    margin-left: 60px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 30px;
+    background-color: #EFF8E2;
+    
+}
+.inicio{
+    margin-top: 30px;
+}
+.inicio h1{
+    margin-top: 30px;
+}
+.inicio p{
+    width: 700px;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+footer{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #080708;
+    align-items: center;
+    height: 200px;
+}
+footer ul li{
+    list-style: none;
+    margin-top: 7px;
+   
+}
+footer ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin-right: 30px;
+    
+}
+footer img{
+    margin-right: 60px;
+    
+}
+.roda-img{
+    display: flex;
+    flex-direction: column;
+}
+.colunas ul{
+    display: flex;
+    flex-direction: row;
+}
+/* --------CARDAPIO-------- */
+.cont{
+    display: flex;
+    flex-direction: row;
+}
+.dia-semana img{
+    width: 250px;
+    height: 200px;
+}
+.formula{
+   display: flex;
+   flex-direction: row-reverse;
+   align-items: center;
+   justify-content: center;
+}
+.lora h1{
+    margin-bottom: 15px;
+}
+.lora p{
+    margin-bottom: 15px;
+}
+.lora input{
+    height: 30px;
+    margin-bottom: 5px;
+}
+.alinha{
+    width:80%;
+    margin:0 auto;
+    align-items: center;
+}
+td{
+    border:3px solid gray;
+    text-align: center;
+}
+tr,th{
+    background-color: #e0e0e0;border:3px solid gray;
+    
+}
